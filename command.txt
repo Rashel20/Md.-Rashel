@@ -1,0 +1,20 @@
+…or create a new repository on the command line
+
+echo "# Md.-Rashel" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Rashel20/Md.-Rashel.git
+git push -u origin main
+
+--config with email
+git config --global user.email "mdrashel7177@gmail.com"
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Rashel20/Md.-Rashel.git
+
+git add .
+git commit -m "file added"
+git push -u origin main
